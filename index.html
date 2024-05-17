@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .menu{
+            position: relative;
+            left: 150px;
+            bottom: 0;
+            top: 20px;
+        }
+        
+        .c-header{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            bottom: 1000;
+            background-color: rgb(247, 210, 43);
+            
+        }
+        
+        .c-footer{
+            padding-left: 20px;
+            width: 100%;
+            position: sticky;
+            left: 0;
+            bottom: 0;
+            background-color: rgb(247, 210, 43);
+
+        }
+        .abs{
+            height: 150px;
+            width: 150px;
+            top: 100px;
+            right: 100px;
+            border-radius: 50%;
+            position: absolute;
+
+        }
+        .abs1{
+            height: 150px;
+            width: 150px;
+            top: 400px;
+            right: 100px;
+            border-radius: 50%;
+            position: absolute;
+
+        }
+      
+    </style>
+</head>
+<body class="action">
+   
+   
+    <div class="c-header">
+        <a style="color: white;" href="#" >Home |</a> 
+        <a style="color: white;" href="#">Menu |</a>
+        <a style="color: white;" href="#" >About us |</a>  
+        <a style="color: white;" href="#" >Contact us |</a> 
+    </div> 
+
+    <div>
+        <img style="height: 700px;" src="./images/menu1.png" alt="menu"  class="menu">
+        <img src="./images/burger.jpeg" alt="burger" class="abs" />
+        <img src="./images/pastry.jpeg" alt="burger" class="abs1" />
+    </div>
+
+    <div class="c-footer">
+        <h1>Quick link</h1>
+        <a href="#" >Home </a> 
+        <a style="margin-left: 45px;" href="#">Menu </a>  <br />
+        <a href="#" >About us </a>  
+        <a style="margin-left: 25px;" href="#" >Contact us</a> 
+    </div>
+    
+</body>
+</html>
